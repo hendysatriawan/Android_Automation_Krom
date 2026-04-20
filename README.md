@@ -10,18 +10,18 @@ Automated mobile testing project for Android using Robot Framework and Appium.
 |------|---------|
 | Python | 3.11.13 |
 | Appium | 3.3.0 |
-| Robot Framework | latest |
-| AppiumLibrary | latest |
-| FakerLibrary | latest |
+| Robot Framework | 6.1.1 |
+| AppiumLibrary | 2.1.0 |
+| FakerLibrary | 6.0.0 |
 
 ---
 
 ## Prerequisites
 
-- Python 3.11+
+- Python 3.11.13
 - Node.js (required for Appium)
-- Android Studio + Emulator (emulator-5554)
-- Java JDK 11+
+- Android Studio + Emulator (pixel_8_pro - android 13)
+- Java JDK 14
 
 ---
 
@@ -45,7 +45,7 @@ npm install -g appium@3.3.0
 
 ### 4. Install Appium UiAutomator2 driver
 ```bash
-appium driver install uiautomator2
+appium driver install uiautomator2 #2.45.1
 ```
 
 ### 5. Download & Install APK
